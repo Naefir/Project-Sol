@@ -5,7 +5,6 @@ var grey = "#646869";
 var black = "#262828";
 
 function Change(base) {
-//    alert("Oh No! Le BouTon Red!!!");
     document.body.style.backgroundColor = base;
 }
 // document.getElementById("p2").style.color = "blue";
@@ -29,5 +28,5 @@ function UserChange() {
     document.body.style.backgroundColor = black;
   }
 
-  //document.body.style.backgroundColor = userIN;
+  //document.body.style.backgroundColor = userIN; :: Doesn't Work with JS Colours
 }

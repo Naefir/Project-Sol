@@ -1,4 +1,2 @@
 # Project-Sol
-A Tool (Website) used to Identify Colours by Name
-
-A webpage that takes user input and changes the webpage background based on that input.
+A Tool (Website) used to Identify Colours by Name by taking user input and changing the background of the webpage based on that input

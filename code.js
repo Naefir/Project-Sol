@@ -1,14 +1,16 @@
+// Colour DataBase
 var red = "#f44336";
 var green = "#4CAF50";
 var blue = "#008CBA";
 var grey = "#646869";
 var black = "#262828";
 
+// Button Change Function
 function Change(base) {
     document.body.style.backgroundColor = base;
 }
-// document.getElementById("p2").style.color = "blue";
-// document.body.style.backgroundColor = "red";
+
+// User Change Function
 function UserChange() {
   var userIN = SolIN.value;
 
@@ -22,7 +24,7 @@ function UserChange() {
     document.body.style.backgroundColor = blue;
   }
   if (userIN == "grey" || userIN == "Grey") {
-    document.body.style.backgroundColor = grey;
+   document.body.style.backgroundColor = grey;
   }
   if (userIN == "black" || userIN == "Black") {
     document.body.style.backgroundColor = black;
@@ -30,3 +32,8 @@ function UserChange() {
 
   //document.body.style.backgroundColor = userIN; :: Doesn't Work with JS Colours
 }
+
+
+// Extra Information
+// document.getElementById("p2").style.color = "blue";
+// document.body.style.backgroundColor = "red";

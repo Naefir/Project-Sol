@@ -1,0 +1,43 @@
+body {
+  background-color: pink
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/*Extend Colour Input Form to Full Screen*/
+/*input[type=text]:focus {
+    width: 100%;*/
+/*}*/
+.title {
+  color: #FFFFFF
+}
+.p2 {color: #FFFFFF}
+/*button Formatting*/
+.button {
+     border: none;
+     color: white;
+     padding: 20px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+
+}
+/*Button Colours*/
+.red {background-color: #f44336;}
+.green {background-color: #4CAF50;}
+.blue {background-color: #008CBA;}
+.grey {background-color: #646869;}
+.black {background-color: #262828;}

@@ -16,13 +16,16 @@ input[type=text] {
 }
 /*Extend Colour Input Form to Full Screen*/
 /*input[type=text]:focus {
-    width: 100%;*/
-/*}*/
+    width: 100%;
+}*/
+
+/*Text Formatting*/
 .title {
   color: #FFFFFF
 }
 .p2 {color: #FFFFFF}
-/*button Formatting*/
+
+/*Button Formatting*/
 .button {
      border: none;
      color: white;

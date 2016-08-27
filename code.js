@@ -9,6 +9,7 @@ function Change(base) {
 }
 // document.getElementById("p2").style.color = "blue";
 // document.body.style.backgroundColor = "red";
+
 function UserChange() {
   var userIN = SolIN.value;
 
@@ -22,7 +23,7 @@ function UserChange() {
     document.body.style.backgroundColor = blue;
   }
   if (userIN == "grey" || userIN == "Grey") {
-    document.body.style.backgroundColor = grey;
+   document.body.style.backgroundColor = grey;
   }
   if (userIN == "black" || userIN == "Black") {
     document.body.style.backgroundColor = black;
